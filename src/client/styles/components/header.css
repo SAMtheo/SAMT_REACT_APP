@@ -1,0 +1,13 @@
+.Header {
+  background-color: rgb(51, 116, 212);
+  height: 60px;
+  display: inline-block;
+  width: 100%;
+}
+
+.Header-menuButton {
+  line-height: 60px;
+  position: absolute;
+  width: 60px;
+  text-align: center;
+}

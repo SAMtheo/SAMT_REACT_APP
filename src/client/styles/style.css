@@ -1,0 +1,10 @@
+@import './components/header.css';
+
+html,
+body,
+#app {
+  height: 100%;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  line-height: 1.25rem;
+  margin: 0;
+}
