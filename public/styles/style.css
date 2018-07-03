@@ -8,3 +8,13 @@ body,
   line-height: 1.25rem;
   margin: 0;
 }
+
+.wrapper {
+  max-width: 90%;
+  height: 100%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}

@@ -30,7 +30,7 @@ class Home extends React.Component {
           </div>
         </Grid>
         <Grid item xs={12}>
-          <div>
+          <div className="wrapper">
             <p>lighthouse</p>
           </div>
         </Grid>
