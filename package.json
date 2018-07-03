@@ -7,7 +7,11 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "webpack-dev-server --config ./webpack.config.js --mode development"
+    "start": "node app.js",
+    "build": "webpack",
+    "watch": "webpack -w",
+    "local": "heroku local",
+    "postinstall": "webpack"
   },
   "dependencies": {
     "@babel/polyfill": "^7.0.0-beta.49",
@@ -18,13 +22,15 @@
     "babel-loader": "^7.1.4",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
+    "chrome-launcher": "^0.10.2",
     "express": "^4.16.3",
+    "lighthouse": "^2.9.4",
     "path": "^0.12.7",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-router-dom": "^4.2.2",
     "webpack": "^4.10.2",
     "webpack-cli": "^2.1.4",
-    "webpack-dev-server": "^3.1.4"
+    "whatwg-fetch": "^2.0.4"
   }
 }
