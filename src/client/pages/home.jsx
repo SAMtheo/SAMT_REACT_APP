@@ -14,8 +14,9 @@ class Home extends React.Component {
 
   async componentWillMount() {
     console.log('/data/lighthouse');
-    // const check = await getEndpoint('/data/lighthouse');
-    const lighthouseCheck = await postEndpoint('/data/lighthouse', this.state.url);
+    const check = await getEndpoint('/data/lighthouse');
+    // const lighthouseCheck = await postEndpoint('/data/lighthouse', this.state.url);
+    console.log(check);
     this.setState({ lighthouseCheck, loading: false });
   }
 
