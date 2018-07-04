@@ -21,6 +21,16 @@ class Home extends React.Component {
   }
 
   render() {
+    const { loading } = this.state;
+    if (loading) {
+      return (
+        <div>
+          <p>
+            Loading
+          </p>
+        </div>
+      );
+    }
     return (
       <Grid container spacing={0}>
         <Grid item xs={12}>
