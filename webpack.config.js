@@ -8,6 +8,9 @@ module.exports = {
     path: path.resolve('public'),
     filename: 'bundle.js',
   },
+  watchOptions: {
+    poll: true,
+  },
   module: {
     rules: [
       {

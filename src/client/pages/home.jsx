@@ -17,7 +17,8 @@ class Home extends React.Component {
     const check = await getEndpoint('/data/lighthouse');
     // const lighthouseCheck = await postEndpoint('/data/lighthouse', this.state.url);
     console.log(check);
-    this.setState({ lighthouseCheck, loading: false });
+    // this.setState({ lighthouseCheck, loading: false });
+    this.setState({ loading: false });
   }
 
   render() {
@@ -42,7 +43,9 @@ class Home extends React.Component {
         </Grid>
         <Grid item xs={12}>
           <div className="wrapper">
-            <p>lighthouse</p>
+            <p>
+              sams snacks
+            </p>
           </div>
         </Grid>
       </Grid>
