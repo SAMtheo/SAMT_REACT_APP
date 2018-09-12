@@ -2,6 +2,7 @@ import React from 'react';
 import { Grid, Icon } from '@material-ui/core';
 
 import { getEndpoint } from '../controllers/fetch';
+import DetailCard from './components/detailCard.jsx';
 
 class Home extends React.Component {
   constructor(props) {
@@ -43,9 +44,11 @@ class Home extends React.Component {
         </Grid>
         <Grid item xs={12}>
           <div className="wrapper">
-            <p>
-              sams snacks
-            </p>
+            <DetailCard
+              Header="Detail Card 1"
+            >
+              <p>Hello</p>
+            </DetailCard>
           </div>
         </Grid>
       </Grid>
